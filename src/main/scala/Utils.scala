@@ -43,23 +43,23 @@ object Utils {
       val xmlDoc = XML.load(xmlLink + "plays.xml")
       val bases = xmlDoc \\ "@bnum"
       val outs = xmlDoc \\ "@o"
-      val inning  = xmlDoc \\ "@inning"
+      val inning  = (xmlDoc \\ "@inning").head
       val runDif = (xmlDoc \\ "@hr").head.toString.toInt - (xmlDoc \\ "@ar").head.toString.toInt
       val gameStatus = xmlDoc \\ "@status"
       val inningStatus = (xmlDoc \\ "@inning_state").toString
-      if((inningStatus == "Top" || inningStatus == "Bottom") && gameStatus.toString == "In Progress") {
+      if((inningStatus == "Top" || inningStatus == "Bottom") && gameStatus.toString == "In Progress" && inning.toString.toInt < 10
+      && runDif.abs < 5) {
         val info = "Home: " + homeName + " | Away: " + awayName
-        println(info)
         val bnum = bases.filter(_.toString.toInt < 4).sortBy(_.toString.toInt)
         if(bnum.isEmpty) {
           val index = indexVal(0, outs.toString.toInt, inning.toString.toInt, inningStatus, runDif.toString.toInt)
+          println(info)
           println(index + "\n")
-          (info, index)
         }
         else {
           val index = indexVal(bnum.toString.toInt, outs.toString.toInt, inning.toString.toInt, inningStatus, runDif.toString.toInt)
+          println(info)
           println(index + "\n")
-          (info, index)
         }
       }
     }
@@ -74,18 +74,17 @@ object Utils {
     val basesTranslated = basesValue(bases)
     val sheetnum = inning - 1
     val sheet = levTable.getSheetAt(sheetnum)
-    if(status == "Top")
-      {
-        val rowVal = outTranslated + basesTranslated
-        sheet.getRow(rowVal).getCell(col).getNumericCellValue
-      }
+    if(status == "Top") {
+      val rowVal = (outTranslated + basesTranslated).toInt
+      sheet.getRow(rowVal).getCell(col).getNumericCellValue
+    }
     else {
-      val rowVal = outTranslated + basesTranslated + 29
+      val rowVal = (outTranslated + basesTranslated + 29).toInt
       sheet.getRow(rowVal).getCell(col).getNumericCellValue
     }
   }
 
-  def basesValue(baseStatus: Int): Int = {
+  def basesValue(baseStatus: Int): Double = {
     if(baseStatus == 0 || baseStatus == 1 || baseStatus == 2 || baseStatus == 3) {
       baseStatus
     }
