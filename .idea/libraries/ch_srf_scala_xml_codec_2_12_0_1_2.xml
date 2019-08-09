@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="ch.srf:scala-xml-codec_2.12:0.1.2" type="repository">
+    <properties maven-id="ch.srf:scala-xml-codec_2.12:0.1.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ch/srf/scala-xml-codec_2.12/0.1.2/scala-xml-codec_2.12-0.1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-xml_2.12/1.1.1/scala-xml_2.12-1.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalaz/scalaz-core_2.12/7.2.26/scalaz-core_2.12-7.2.26.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

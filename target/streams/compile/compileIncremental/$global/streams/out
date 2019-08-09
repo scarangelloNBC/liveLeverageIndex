@@ -1,0 +1,49 @@
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /Users/a206622245/Documents/GitHub/IndexForecast/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.0[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.0. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.12.0.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_b1fd14f6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/resources.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/rt.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/sunrsasign.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/jsse.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/jce.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/charsets.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/jfr.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/classes:/Users/a206622245/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_79d106e5/jars/org.scala-sbt/compiler-interface/compiler-interface-1.2.5.jar:/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_79d106e5/jars/org.scala-sbt/util-interface/util-interface-1.2.2.jar:/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_79d106e5/srcs/org.scala-sbt/compiler-bridge_2.12/compiler-bridge_2.12-1.2.5-sources.jar:/Users/a206622245/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.0.jar:/Users/a206622245/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.0.jar:/Users/a206622245/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar:/Users/a206622245/.ivy2/cache/jline/jline/jars/jline-2.14.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/Command.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/CompilerInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/ConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/InteractiveConsoleFactory.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/InteractiveConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/9p/ks24v6h95vqf9xtp4jyhyb2h0000gn/T/sbt_d051cdb5/xsbt/ScaladocInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 8.634s.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 400662da for Scala compiler version 2.12.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/resources.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/rt.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/sunrsasign.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/jsse.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/jce.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/charsets.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/lib/jfr.jar:/Users/a206622245/.sdkman/candidates/java/8.0.212-amzn/jre/classes:/Users/a206622245/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/a206622245/Documents/GitHub/IndexForecast/target/scala-2.12/classes:/Users/a206622245/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/jars/scala-scraper_2.12-2.1.0.jar:/Users/a206622245/.ivy2/cache/com.github.nscala-time/nscala-time_2.12/jars/nscala-time_2.12-2.18.0.jar:/Users/a206622245/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar:/Users/a206622245/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar:/Users/a206622245/.ivy2/cache/net.sourceforge.htmlunit/htmlunit/jars/htmlunit-2.29.jar:/Users/a206622245/.ivy2/cache/xalan/xalan/jars/xalan-2.7.2.jar:/Users/a206622245/.ivy2/cache/xalan/serializer/jars/serializer-2.7.2.jar:/Users/a206622245/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.7.jar:/Users/a206622245/.ivy2/cache/org.apache.commons/commons-text/jars/commons-text-1.2.jar:/Users/a206622245/.ivy2/cache/org.apache.httpcomponents/httpmime/jars/httpmime-4.5.4.jar:/Users/a206622245/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.4.jar:/Users/a206622245/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.7.jar:/Users/a206622245/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar:/Users/a206622245/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/Users/a206622245/.ivy2/cache/net.sourceforge.htmlunit/htmlunit-core-js/jars/htmlunit-core-js-2.28.jar:/Users/a206622245/.ivy2/cache/net.sourceforge.htmlunit/neko-htmlunit/jars/neko-htmlunit-2.28.jar:/Users/a206622245/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/a206622245/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/a206622245/.ivy2/cache/net.sourceforge.cssparser/cssparser/jars/cssparser-0.9.24.jar:/Users/a206622245/.ivy2/cache/org.w3c.css/sac/jars/sac-1.3.jar:/Users/a206622245/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.6.jar:/Users/a206622245/.ivy2/cache/commons-net/commons-net/jars/commons-net-3.6.jar:/Users/a206622245/.ivy2/cache/org.eclipse.jetty.websocket/websocket-client/jars/websocket-client-9.4.8.v20171121.jar:/Users/a206622245/.ivy2/cache/org.eclipse.jetty/jetty-client/jars/jetty-client-9.4.8.v20171121.jar:/Users/a206622245/.ivy2/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-9.4.8.v20171121.jar:/Users/a206622245/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-9.4.8.v20171121.jar:/Users/a206622245/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-9.4.8.v20171121.jar:/Users/a206622245/.ivy2/cache/org.eclipse.jetty/jetty-xml/jars/jetty-xml-9.4.8.v20171121.jar:/Users/a206622245/.ivy2/cache/org.eclipse.jetty.websocket/websocket-common/jars/websocket-common-9.4.8.v20171121.jar:/Users/a206622245/.ivy2/cache/org.eclipse.jetty.websocket/websocket-api/jars/websocket-api-9.4.8.v20171121.jar:/Users/a206622245/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.11.2.jar:/Users/a206622245/.ivy2/cache/org.scalaz/scalaz-core_2.12/bundles/scalaz-core_2.12-7.2.18.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 9.684203301 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
